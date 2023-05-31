@@ -2,8 +2,8 @@ import asyncio
 
 from pyrogram import Client
 
-api_id = 9411854
-api_hash = '499c76606cefdeadd4b1ece84a5a9932'
+api_id = 0
+api_hash = ''
 
 app = Client('pyro_account', api_id=api_id, api_hash=api_hash)
 with open('link.txt', 'r') as file:
